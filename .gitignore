@@ -1,0 +1,29 @@
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# 私有数据与素材（不入库）
+数据集/
+gt/out/
+docs/
+gorec/webapp.py
+*.mov
+*.mp4
+*.m4a
+
+# 日志与临时文件
+*.log
+.DS_Store
+
+# 训练产物（权重已随仓库提供，训练新产物按需保留）
+# pointnet.pt
+# pointnet.onnx
