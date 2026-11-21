@@ -6,5 +6,4 @@ torch>=2.0
 # 可选：免 torch 的 ONNX 推理（不需要 torch 时可注释掉上面的 torch）
 onnxruntime>=1.16
 
-# 可选：下载公开评测视频
-# yt-dlp>=2024.1
+
